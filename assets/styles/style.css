@@ -31,19 +31,19 @@ header{
 .home{
     border: 0.5px solid black;
     height: 25vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
     background-image: url(https://i.postimg.cc/KvsSK8cj/Electronic-Fest.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -70vh;
+    background-position: center;
+    background-size: cover;
 }
 h1{
-    background-color: rgba(0, 0, 0, 0.819);
     font-size: 15mm;
     color: aliceblue;
     border-radius: 10px;
+    display: flex;
+align-items: center;
+justify-content: center;
 }
     /* MAIN */
 
@@ -56,9 +56,10 @@ main{
     align-items: center;
     justify-content: space-around;
     min-height: 10vh;
+    flex-wrap: wrap;
 }
 .d-flex{
-    width: 75vh;
+    width: 68vh;
 }
 .prices{
     display: flex;
@@ -67,12 +68,12 @@ main{
 .card1{
     display: flex;
 }
-.row{
+#cardd{
     margin-top: 1.5vh;
     gap: 3vh;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
         /* FOOTER */
 footer{
@@ -111,25 +112,15 @@ footer{
     .form-control.me-2{
         width: 100%;
     }
-    .mainform{
-        display: flex;
-    }
 }
 
             /* CONTACT */
 
-.mainform{
-    width: 100%;
+.formcontact{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    border: 2px solid black;
-    height: 60vh;
-    flex-wrap: wrap;
-}
-.form-control{
-    width: 60vh;
+    align-items: center;
+    flex-direction: column;
 }
 
             /* STATS */
